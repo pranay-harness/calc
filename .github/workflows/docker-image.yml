@@ -33,9 +33,9 @@ jobs:
         # docker login docker.pkg.github.com --username ${GITHUB_ACTOR} --password ${{ secrets.GITHUB_TOKEN }}
         
         # Build the Docker container
-        docker build . --file Dockerfile --tag docker.pkg.github.com/calc/app:1
+        docker build . --file Dockerfile --tag docker.pkg.github.com/pranay-harness/calc/app:1
         
         # Push the Docker container into GitHub packages
-        docker push docker.pkg.github.com/calc/app:1
+        docker push docker.pkg.github.com/pranay-harness/calc/app:1
         
         
