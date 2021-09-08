@@ -23,7 +23,7 @@ jobs:
         echo "The GitHub user is PRANAY"
         
         # Convert the repo name variable to lowercase because Docker expects lower case registry name
-        echo "The repository name is TEST"
+        echo "The repository name is TEST1"
         
         # Set version
         VERSION=$(date +%s)
